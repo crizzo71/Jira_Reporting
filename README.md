@@ -86,8 +86,8 @@ Reports are automatically saved to:
 
 **Installation:**
 ```bash
-git clone <repository-url>
-cd Jira_MCP
+git clone https://github.com/crizzo71/Jira_Reporting.git
+cd Jira_Reporting
 pip install -r requirements.txt
 ```
 
@@ -388,8 +388,8 @@ python -m jira_mcp_server.cli custom-report --config my-analysis.json
 ### **Option 1: Quick Demo** (5 minutes)
 ```bash
 # Download and run demo
-git clone <repository-url>
-cd Jira_MCP
+git clone https://github.com/crizzo71/Jira_Reporting.git
+cd Jira_Reporting
 python test_analytics_demo.py
 ```
 
