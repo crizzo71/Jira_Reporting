@@ -1,0 +1,113 @@
+{
+  "phase": "Phase 1 - Foundation",
+  "timestamp": "138858.401485708",
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "test_results": {
+    "configuration": {
+      "status": "passed",
+      "features_tested": {
+        "jira_config": true,
+        "cloud_migration_config": false,
+        "github_integration_config": false,
+        "rag_classification_config": true,
+        "report_config": true,
+        "analytics_config": true,
+        "cache_config": true,
+        "mcp_config": true
+      },
+      "config_sections": [
+        "jira",
+        "github",
+        "rag",
+        "report",
+        "analytics",
+        "cache",
+        "mcp",
+        "migration",
+        "log_level",
+        "log_file",
+        "debug_mode"
+      ],
+      "jira_server": "https://issues.redhat.com",
+      "instance_type": "auto",
+      "auth_type": "pat"
+    },
+    "authentication": {
+      "status": "passed",
+      "server_url": "https://issues.redhat.com",
+      "instance_type": "server",
+      "auth_method": "pat",
+      "user_info": {
+        "self": "https://issues.redhat.com/rest/api/2/user?username=crizzo71",
+        "key": "crizzo71",
+        "name": "crizzo71",
+        "emailAddress": "crizzo@redhat.com",
+        "avatarUrls": {
+          "48x48": "https://issues.redhat.com/secure/useravatar?avatarId=17290",
+          "24x24": "https://issues.redhat.com/secure/useravatar?size=small&avatarId=17290",
+          "16x16": "https://issues.redhat.com/secure/useravatar?size=xsmall&avatarId=17290",
+          "32x32": "https://issues.redhat.com/secure/useravatar?size=medium&avatarId=17290"
+        },
+        "displayName": "Christine Rizzo",
+        "active": true,
+        "deleted": false,
+        "timeZone": "America/New_York",
+        "locale": "en_US",
+        "groups": {
+          "size": 13,
+          "items": []
+        },
+        "applicationRoles": {
+          "size": 1,
+          "items": []
+        },
+        "expand": "groups,applicationRoles"
+      },
+      "api_version": "9.12.26",
+      "dual_mode_active": false
+    },
+    "redhat_compatibility": {
+      "status": "passed",
+      "compatibility_tests": {
+        "project_access": {
+          "status": "passed",
+          "count": 1759,
+          "sample_projects": [
+            "AIP",
+            "AIHCM",
+            "O2CGPO"
+          ]
+        },
+        "user_operations": {
+          "status": "passed",
+          "current_user": "crizzo71"
+        }
+      },
+      "server_url": "https://issues.redhat.com",
+      "redhat_instance": true
+    },
+    "cloud_migration_readiness": {
+      "status": "passed",
+      "migration_readiness": {
+        "dual_mode_configured": null,
+        "dual_mode_active": false,
+        "primary_server": "https://issues.redhat.com",
+        "cloud_server": null,
+        "migration_timeline": "6 months"
+      }
+    },
+    "legacy_migration": {
+      "status": "passed",
+      "migration_test": {
+        "legacy_configs_found": [],
+        "migration_enabled": true,
+        "can_migrate": false
+      }
+    }
+  }
+}
